@@ -8,7 +8,7 @@ Python (3.7 o superior)
 Pip (gestor de paquetes de Python)
 Navegador web (por ejemplo, Chrome, Firefox)
 Configuración
-Clonar el Repositorio: Clona este repositorio en tu máquina local.
+https://github.com/danilsorianomedina/qademo.git.
 
 bash
 Copy code
