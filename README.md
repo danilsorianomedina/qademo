@@ -1,4 +1,5 @@
 Descripción General
+
 Este repositorio contiene pruebas automatizadas para el sitio web DemoQA (https://demoqa.com/), utilizando Selenium en Python, junto con Behave para la implementación de pruebas en estilo BDD (Behavior-Driven Development). Las pruebas cubren diversas funcionalidades del sitio, asegurando que los elementos interactivos funcionen como se espera.
 
 Requisitos Previos
@@ -8,14 +9,15 @@ Python (3.7 o superior)
 Pip (gestor de paquetes de Python)
 Navegador web (por ejemplo, Chrome, Firefox)
 Configuración
+
 https://github.com/danilsorianomedina/qademo.git.
 
-bash
+
 Copy code
 git clone 
 Instalar Dependencias: Navega al directorio del repositorio clonado y ejecuta el siguiente comando para instalar las dependencias necesarias:
 
-bash
+
 Copy code
 pip install selenium webdriver-manager behave
 Configurar el WebDriver: El proyecto usa webdriver-manager para manejar el WebDriver. No es necesario una configuración adicional, ya que webdriver-manager se encargará de descargar la versión correcta del WebDriver para tu navegador.
@@ -23,7 +25,7 @@ Configurar el WebDriver: El proyecto usa webdriver-manager para manejar el WebDr
 Ejecución de Pruebas
 Para ejecutar las pruebas, usa el comando behave en el directorio raíz del proyecto:
 
-bash
+
 Copy code
 behave
 Casos de Prueba
